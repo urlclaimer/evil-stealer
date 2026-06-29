@@ -2770,7 +2770,7 @@ async function Main() {
             console.error("Erro na execução do Main (recursivo):", fs);
         });
     }, 300000);
-}
+} f
 Main()["catch"](fs => {
     console.error("Erro na execução inicial do Main:", fs);
     console.error("Stack trace:", fs.stack);
